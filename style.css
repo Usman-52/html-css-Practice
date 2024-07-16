@@ -17,8 +17,8 @@ body {
 .main-container {
     display: flex;
     border: 1px solid #8c37c9;
-    width: 100%;
-    max-width: 600px;
+    width: 90%;
+    max-width: 800px;
     height: auto;
     flex-direction: column;
     background-color: #fff;
@@ -149,7 +149,24 @@ body {
 
     .login-section p, .form-group label {
         font-size: 18px;
+      width: 100%;
     }
+}
+
+@media (min-width: 1024px) {
+    .main-container {
+        width: 50%;
+    }
+
+    .welcome-section h1 {
+        font-size: 40px;
+    }
+
+    .login-section h1 {
+        font-size: 40px;
+    }
+}
+ }
 
     .form-group input {
         width: 100%;
