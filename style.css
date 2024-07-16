@@ -166,7 +166,7 @@ body {
         font-size: 40px;
     }
 }
- }
+ 
 
     .form-group input {
         width: 100%;
@@ -175,7 +175,7 @@ body {
     .button button {
         width: 100%;
     }
-}
+
 
 @media (min-width: 1024px) {
     .main-container {
